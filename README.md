@@ -20,6 +20,19 @@ $ role-bot [--token] [--prefix]
 $ role-bot --token Mfa. --prefix "!"
 ```
 
+### Commands
+
+```
+!role [user mentions]
+```
+
+Example
+```
+!role @sean @daf
+```
+
+If no user mentions are specified, it will return your roles.
+
 ## Configuration
 
 Make sure a `.rolebotrc` file exists,
