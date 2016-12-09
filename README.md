@@ -25,8 +25,8 @@ $ role-bot --token Mfa. --prefix "!"
 Make sure a `.rolebotrc` file exists,
 an typical configuration should look like so:
 
-```toml
-token = Mja
+```
+token = Mfa.
 prefix = !
 ```
 
