@@ -5,15 +5,32 @@
 ## Installation
 
 ```sh
-$ npm install --save role-bot
+$ npm install -g seanc/role-bot
 ```
 
 ## Usage
 
-```js
-var roleBot = require('role-bot');
-roleBot();
+```sh
+$ role-bot [--token] [--prefix]
 ```
+
+### Example
+
+```sh
+$ role-bot --token Mfa. --prefix "!"
+```
+
+## Configuration
+
+Make sure a `.rolebotrc` file exists,
+an typical configuration should look like so:
+
+```toml
+token = Mfa.
+prefix = !
+```
+
+Passing in command line parameters will override these values
 
 ## License
 

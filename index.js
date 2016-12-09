@@ -8,7 +8,6 @@ const softOpts = require('minimist')(process.argv.slice(2))
 const config = Object.assign(hardOpts, softOpts)
 const zt = require('zt')
 const lazy = require('lazy-template')
-const minimist = require('minimist')
 
 const bot = new Client()
 const trigger = `${config.prefix}role`
