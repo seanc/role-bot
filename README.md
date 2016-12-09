@@ -26,7 +26,7 @@ Make sure a `.rolebotrc` file exists,
 an typical configuration should look like so:
 
 ```toml
-token = Mfa.
+token = Mja
 prefix = !
 ```
 
